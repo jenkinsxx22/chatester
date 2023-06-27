@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="600.0" styleClass="contentPane" stylesheets="@../../../../resources/styles/StyleSheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.view.waitingbarController">
+   <children>
+      <ProgressBar fx:id="pbr" layoutX="111.0" layoutY="39.0" prefHeight="38.0" prefWidth="474.0" progress="0.0" />
+      <Label layoutX="114.0" layoutY="86.0" prefHeight="21.0" prefWidth="467.0" styleClass="labelDark" text="Please Wait..." />
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/images/icons8-wait-100.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

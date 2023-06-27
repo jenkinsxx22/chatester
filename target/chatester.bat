@@ -1,0 +1,1 @@
+C:\Users\nisar.abbasi\.jdks\openjdk-20.0.1\bin\java.exe --module-path C:\Users\nisar.abbasi\Downloads\openjfx-20.0.1_windows-x64_bin-sdk\javafx-sdk-20.0.1\lib --add-modules javafx.controls,javafx.fxml -Dfile.encoding=windows-1252 -Dsun.stdout.encoding=windows-1252 -Dsun.stderr.encoding=windows-1252 -jar C:\Users\nisar.abbasi\IdeaProjects\demo2\target\demo2-1.0-SNAPSHOT-shaded.jar
